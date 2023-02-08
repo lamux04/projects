@@ -22,6 +22,10 @@ h3 {
     font-weight: 300;
 }
 
+section {
+    padding: 10px 100px;
+}
+
 p {
     text-align: justify;
 }
@@ -45,10 +49,6 @@ a:any-link{
 /* CSS Ids y Clases */
 .hastag {
     color: #ffc900;
-}
-
-.seccion {
-    padding: 10px 100px;
 }
 
 #redes-sociales {
