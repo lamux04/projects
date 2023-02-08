@@ -38,6 +38,16 @@ i {
     font-size: 24px;
 }
 
+nav {
+    position: fixed;
+    display: inline-block;
+    width: 100%;
+    background-color: #222;
+    border-bottom: #fff solid 1px;
+    padding-top: 10px;
+    text-align: center;
+}
+
 i:hover {
     color: #ffc900;
 }
@@ -51,13 +61,23 @@ a:any-link{
     color: #ffc900;
 }
 
-#redes-sociales {
+#redes-sociales, 
+nav > ul {
     list-style: none;   
 }
 
-#redes-sociales li {
+nav > ul {
+    display: inline-block;
+}
+
+#redes-sociales li,
+nav li {
     float: left;
     margin-right: 10px;
+}
+
+nav li {
+    padding-top: 12px;
 }
 
 #inicio {
@@ -66,6 +86,7 @@ a:any-link{
     background-size: cover;
     background-position: center;
     min-height: 280px;
+    padding-top: 77px;
 }
 
 #portafolio {
@@ -77,3 +98,6 @@ a:any-link{
     color: #222;
 }
 
+#logo {
+    padding-top: 0;
+}
