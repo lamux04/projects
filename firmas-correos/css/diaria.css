@@ -1,0 +1,22 @@
+h1, h2 {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    padding: 20px;
+}
+
+h2 {
+    padding-left: 420px;
+}
+
+h1 {
+    padding-top: 20px;
+    padding-left: 15px;
+    border-top: 3px double darkgreen;
+}
+
+div {
+    width: 700px;
+}

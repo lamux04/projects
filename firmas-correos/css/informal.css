@@ -1,0 +1,32 @@
+h1 {
+    font: 600 24px 'Poppins', sans-serif;
+    line-height: 36px;
+    margin: 0;
+    padding-top: 30px;
+    padding-left: 30px;
+    color: #D4AA00;
+}
+
+p {
+    font: 500 20px 'Poppins', sans-serif;
+    color: #fff;
+    text-align: right;
+    display: inline-block;
+    padding-left: 150px;
+}
+
+.card {
+    width: 700px;
+    height: 300px;
+    background-image: url("../images/star-wars_700x300.png");
+}
+
+.redes-sociales {
+    padding-left: 30px;
+    padding-top: 160px;
+    display: inline-block;
+}
+
+.red-social {
+    margin: 5px;
+}

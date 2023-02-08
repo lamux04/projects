@@ -1,0 +1,69 @@
+/* Selectores de etiqueta */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #fff;
+    color: #222;
+    font: 200 14px 'Poppins', sans-serif
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+}
+
+h3 {
+    color: #ffc900;
+}
+
+td {
+    margin-right: 50px;
+    width: 200px;
+}
+
+th {
+    background-color: #222;
+    color: #fff;
+}
+
+/* Selectores de clase y id */
+#educacion,
+#experiencia {
+    background-color: #222;
+    color: #fff;
+}
+
+#experiencia {
+    border-top: #fff solid 1px;
+}
+
+#experiencia-icons {
+    list-style: none;
+}
+
+#experiencia-icons li {
+    float: left;
+    margin-right: 5px;
+}
+
+.seccion{
+    padding: 10px 100px;
+}
+
+#educacion-bloque a:any-link {
+    color: #fff;
+}
+
+#educacion-bloque a:hover {
+    color: #ffc900;
+}

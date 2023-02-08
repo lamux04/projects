@@ -1,0 +1,79 @@
+/* CSS general de elementos */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #222;
+    color: #fff;
+    font: 200 14px 'Poppins', sans-serif;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 36px;
+}
+
+h3 {
+    color: #999;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+p {
+    text-align: justify;
+}
+
+cite {
+    font-weight: 300;
+}
+
+i {
+    font-size: 24px;
+}
+
+i:hover {
+    color: #ffc900;
+}
+
+a:any-link{
+    color: #fff;
+}
+
+/* CSS Ids y Clases */
+.hastag {
+    color: #ffc900;
+}
+
+.seccion {
+    padding: 10px 100px;
+}
+
+#redes-sociales {
+    list-style: none;   
+}
+
+#redes-sociales li {
+    float: left;
+    margin-right: 10px;
+}
+
+#inicio {
+    background-image: url("../images/inicio_1280x300.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 280px;
+}
+
+#portafolio {
+    border-top: #ffc900 solid 1px;
+}
+
+#experiencia {
+    background-color: #fff;
+    color: #222;
+}
+
