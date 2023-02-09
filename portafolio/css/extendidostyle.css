@@ -100,3 +100,9 @@ section{
 #educacion-bloque a:hover {
     color: #ffc900;
 }
+
+#datos-personales .container {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
