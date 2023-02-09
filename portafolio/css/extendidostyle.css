@@ -56,6 +56,15 @@ nav li {
     padding-top: 12px;
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffc900;
+}
+
 #logo {
     padding-top: 0;
 }

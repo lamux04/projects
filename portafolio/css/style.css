@@ -56,6 +56,14 @@ a:any-link{
     color: #fff;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffc900;
+}
+
 /* CSS Ids y Clases */
 .hastag {
     color: #ffc900;
