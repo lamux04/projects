@@ -93,11 +93,11 @@ section{
     padding: 10px 100px;
 }
 
-#educacion-bloque a:any-link {
+.educacion-bloque a:any-link {
     color: #fff;
 }
 
-#educacion-bloque a:hover {
+.educacion-bloque a:hover {
     color: #ffc900;
 }
 
@@ -105,4 +105,37 @@ section{
     display: flex;
     justify-content: center;
     column-gap: 20px;
+}
+
+/* Educacion */
+.educacion-container {
+    display: grid;
+    grid-template-columns: repeat(3, 320px);
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.educacion-bloque {
+    background-color: #333;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.educacion-bloque img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    
+}
+
+.separator {
+    border: #ffc900 1px solid;
+    margin: 5px 0;
+}
+
+.educacion-bloque h3 {
+    font-size: 16px;
+}
+
+.educacion-bloque p {
+    margin-top: 15px;
 }
