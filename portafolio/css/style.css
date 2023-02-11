@@ -192,8 +192,8 @@ nav li {
 
 .gridexp {
     display: grid;
-    grid-template-columns: repeat(3, 350px);
-    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
     justify-content: space-between;
     align-content: space-around;
 }
@@ -202,6 +202,7 @@ nav li {
     background-color: #222;
     border-radius: 10px;
     padding: 15px;
+    max-width: 400px;
 }
 
 .cardexp h2 {
@@ -232,4 +233,11 @@ nav li {
 .cardexp img {
     width: 20px;
     height: auto;
+}
+
+/* Formulario de Contacto */
+
+#contacto {
+    background-color: #ffc900;
+    color: #000;
 }
