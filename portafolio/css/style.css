@@ -187,3 +187,20 @@ nav li {
 #bodysobremi .masinfo button {
     float: none;
 }
+
+.gridexp {
+
+}
+
+.cardexp {
+    background-color: #222;
+    border-radius: 10px;
+}
+
+.cardexp h2 {
+    color: #fff;
+    font-size: 24px;
+}
+.cardexp p {
+    color: #fff;
+}
