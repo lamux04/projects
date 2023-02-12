@@ -72,7 +72,11 @@
             <h3>Una mirada más allá del texto</h3>
             <div class="filaportfolio">
                 <div class="card">
-                    <img src="./images/imagen_portfolio.png" alt="Portfolio 1">
+                    <video controls width="250">
+                        <source src="media/intro_mastermind.mp4">
+                        <source src="media/intro_mastermindv2.mp4">
+                        <source src="media/portfolio_media_intro_mastermindv2.webm">
+                    </video>
                     <h3>musica</h3>
                     <h4>concierto benicassim</h4>
                     <div class="sep"></div>
@@ -80,7 +84,7 @@
                     <div class="masinfo"><button type="button">MAS INFO</button></div>
                 </div>
                 <div class="card">
-                    <img src="./images/imagen_portfolio.png" alt="Portfolio 2">
+                    <iframe width="1234" height="694" src="https://www.youtube.com/embed/AJvHx-x_27Y" title="¡Charlando con Auronplay y su NUEVO PC!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     <h3>musica</h3>
                     <h4>concierto benicassim</h4>
                     <div class="sep"></div>
@@ -185,9 +189,21 @@
                     <label for="name">Nombre: </label>
                     <input type="text" id="name" name="nombre" minlength="2" maxlength="64" size="32" required>
                 </div>
-
                 <div class="itemform">
-                    <input type="submit" value="Enviar" name="submit">
+                    <label for="empresa">Empresa: </label>
+                    <input type="text" id="empresa" name="empresa" minlength="2" maxlength="128" size="32">
+                </div>
+                <div class="itemform">
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email" minlength="10" maxlength="128" size="32" required>
+                </div>
+                <div class="itemform">
+                    <label for="comentarios">Mensaje: </label>
+                    <textarea name="Comentarios" id="comentarios" cols="30" rows="5"></textarea>   
+                </div>
+
+                <div class="itemform" id="submit-div">
+                    <input  id="submit-button" type="submit" value="Enviar" name="submit">
                 </div>
             </form>
         </section>

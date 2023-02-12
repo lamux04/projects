@@ -128,10 +128,11 @@ nav li {
     text-align: initial;
 }
 
-.card img {
+.card img, .card video, .card iframe {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-
+    width: 250px;
+    height: auto;
 }
 
 .card h3 {
@@ -240,4 +241,48 @@ nav li {
 #contacto {
     background-color: #ffc900;
     color: #000;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    margin: auto;
+}
+
+.itemform {
+    display: grid;
+    grid-template-columns: 150px 450px;
+    margin: 10px;
+}
+
+.itemform label {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.itemform input,
+.itemform textarea {
+    border-radius: 5px;
+    border: 1px solid #222;
+    padding: 3px;
+}
+
+#submit-div {
+    justify-content: center;
+    grid-template-columns: 1fr;
+    justify-items: end;
+}
+
+#submit-button {
+    padding: 5px 30px;
+    background-color: #222;
+    color: #fff;
+    font-weight: 700;
+}
+
+#submit-button:hover {
+    color: #ffc900;
+    background-color: #333;
+    cursor: pointer;
+    transition: 1s;
 }

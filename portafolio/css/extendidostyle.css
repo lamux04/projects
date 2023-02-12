@@ -139,3 +139,62 @@ section{
 .educacion-bloque p {
     margin-top: 15px;
 }
+
+/* Comentarios */
+#contacto {
+    background-color: #ffc900;
+}
+
+.itemform {
+    display: grid;
+    grid-template-columns: 150px 350px;
+    justify-content: end;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.itemform input,
+.itemform select,
+.itemform textarea {
+    border-radius: 5px;
+    border: none;
+    padding: 3px 5px;
+    font-size: 14px;
+
+}
+
+.itemform select {
+    background-color: #fff;
+}
+
+.itemform input[type="submit"] {
+    grid-column: 2/3;
+    justify-self: end;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #222;
+    color: #fff;
+    transition: 1s;
+}
+
+.itemform input:focus,
+.itemform textarea:focus,
+.itemform select:focus {
+    outline: none;
+    background-color: #ffc900;
+    border-radius: 0;
+    border-bottom: #222 2px solid;
+    font-size: 16px;
+    transition: 1s;
+}
+
+.itemform input[type="submit"]:hover {
+    background-color: #ffc900;
+    color: #222;
+    border: 1px #222 solid;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 1s;
+}
