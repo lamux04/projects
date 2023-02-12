@@ -11,6 +11,8 @@ nav {
     justify-content: space-between;
     background-color: #ffc900;
     align-items: center;
+    position: fixed;
+    width: 100%;
 }
 
 .logo {
@@ -50,3 +52,55 @@ nav {
 }
 
 /* FIN Barra de navegación */
+
+main {
+    padding-top: 57.5px;
+}
+
+/* Bloque Inicio */
+#inicio {
+    background-image: url("../images/inicio.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 700px;
+}
+
+#inicio h1 {
+    text-align: right;
+    font-size: 48px;
+    font-weight: 900;
+    color: #fff;
+    padding: 40px 100px;
+}
+/* FIN Bloque inicio */
+
+/* Bloque exterior */
+.exterior-contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    justify-items: center;
+}
+
+.exterior-contenedor img {
+    display: inline-block;
+}
+
+#ex01 {
+    grid-column: 1/3;
+}
+
+#ex02 {
+    grid-column: 3/4;
+}
+
+#ex03 {
+    grid-column: 1/2;
+}
+
+#ex04 {
+    grid-column: 2/4;
+}
+
+
+/* FIN Bloque exterior */
