@@ -1,0 +1,52 @@
+/* Estilos generales */
+body {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+/* FIN Estilos generales */
+
+/* Barra de navegación */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffc900;
+    align-items: center;
+}
+
+.logo {
+    margin: 10px 20px;
+}
+
+.logo img {
+    height: 35px;
+}
+
+.nav-ul {
+    display: flex;
+    align-items: center;
+    margin-right: 10%;
+    font-size: 18px;
+    font-weight: 700;
+    height: 57.5px;
+}
+
+.nav-ul li {
+    height: 100%;
+}
+
+.nav-ul a {
+    text-decoration: none;
+    color: #222;
+    display: inline-block;
+    height: 100%;
+    line-height: 57.5px;
+    padding: 0 25px;
+}
+
+.nav-ul a:hover {
+    color: #ffc900;
+    background-color: #222;
+    transition: 0.5s;
+}
+
+/* FIN Barra de navegación */
