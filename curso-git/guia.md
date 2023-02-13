@@ -27,3 +27,10 @@ https://docs.github.com/es/authentication/connecting-to-github-with-ssh/generati
 - `ssh-keygen -t ed25519 -C "your_email@example.com"`
 - Conectar clave ssh con github
 - ssh-agent: `eval "$(ssh-agent -s)"` y `ssh-add ~/.ssh/id_ed25519`
+
+## Pull Request
+- Crear rama: `git ckeckout -b nombre_rama` (Normalmente features-...)
+- Ver ramas: git branch
+- Ver git log rapido: `git log --oneline`
+- Push con otra rama: `git push -u origin nombre_rama`
+- Cambiar rama: `git checkout nombre_rama`
