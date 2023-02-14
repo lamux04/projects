@@ -34,3 +34,5 @@ https://docs.github.com/es/authentication/connecting-to-github-with-ssh/generati
 - Ver git log rapido: `git log --oneline`
 - Push con otra rama: `git push -u origin nombre_rama`
 - Cambiar rama: `git checkout nombre_rama`
+- Mezclar ramas en local (subrama en rama-main) (desde rama-main): `git merge subrama`
+- Ver commits con ramas: `git log --graph --oneline`
