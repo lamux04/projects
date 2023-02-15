@@ -36,3 +36,9 @@ https://docs.github.com/es/authentication/connecting-to-github-with-ssh/generati
 - Cambiar rama: `git checkout nombre_rama`
 - Mezclar ramas en local (subrama en rama-main) (desde rama-main): `git merge subrama`
 - Ver commits con ramas: `git log --graph --oneline`
+
+## Otros
+- Crear una rama a partir de la actual: `git branch nombre_rama`
+- Eliminar rama: `git branch -d nombre_rama`
+- Cambiar el título del commit anterior (sin subir a github): `git commit --amend -m "nuevo nombre"`
+- Deshacer todos los cambios de un archivo después de un commit: `git restore archivo.xd`
