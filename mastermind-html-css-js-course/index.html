@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Masterdots game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -18,13 +21,18 @@
     <main>
         <form action="#">
             <div class="itemform">
-                <label for="nick">Introduce tu nick</label>
+                <label for="nick">introduce tu nick</label>
+                <input type="text" name="nick" value="@" id="nicka" readonly>
                 <input type="text" name="nick" id="nick">
             </div>
             <div class="itemform">
-                <label for="size">Tamaño del juego</label>
-                <select name="size" id="size">
-                    <option value="">--Elige un tamaño--</option>
+                <label for="emil">correo electrónico</label>
+                <input type="email" name="email" id="email" placeholder="yo@iam.es">
+            </div>
+            <div class="itemform">
+                <label for="tamano">tamaño del juego</label>
+                <select name="tamano" id="tamano">
+                    <option value="">--Por favor elige un tamaño--</option>
                     <option value="1">4x4</option>
                     <option value="2">5x5</option>
                     <option value="3">6x6</option>

@@ -1,0 +1,112 @@
+body {
+    background-color: #fdfbff;
+    color: #001b3d;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    width: 400px;
+    margin: 30px auto 0 auto;
+    text-align: center;
+}
+
+main {
+    width: 600px;
+    margin: 30px auto 0 auto;
+}
+
+input, select {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Formulario */
+form {
+    display: grid;
+    grid-column: 1fr;
+    gap: 20px;
+}
+
+.itemform {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itemform label {
+    width: 250px;
+    text-align: right;
+}
+
+.itemform input, 
+.itemform select {
+    background-color: #fdfbff;
+    color: #000;
+    border: 2px #8e98ad solid;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 16px;
+    width: 250px;
+}
+
+.itemform select {
+    width: 282px;
+}
+.itemform input:hover,
+.itemform select:hover {
+    border-color: #001b3d;
+    transition: 0.5s;
+}
+
+.itemform input:focus,
+.itemform select:focus {
+    outline: none;
+    border-color: #865300;
+    transition: 0.5s;
+}
+
+
+.button {
+    color: #ffddb9;
+    background-color: #663e00;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    justify-self: right;
+    width: 200px;
+}
+
+.button:hover {
+    background-color: #472a00;
+    color: #ffb961;
+    transition: 1s;
+    cursor: pointer;
+}
+
+@media screen and (max-width:700px) {
+    main {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .itemform {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .itemform label {
+        text-align: left;
+    }
+
+    form {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    input, select {
+        font-size: 18px;
+    }
+}
+
+/* FIN Formulario */
