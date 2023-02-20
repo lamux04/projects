@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario sobre gustos</title>
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+<body>
+    <!-- Cabecera -->
+    <header>
+        <img src="img/logo.webp" alt="Logo GitHub">
+    </header>
+    <!-- FIN Cabecera -->
+
+    <!-- Formulario -->
+    <form action="#">
+        <div class="itemform">
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div class="itemform">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div class="itemform">
+            <label for="edad">Edad</label>
+            <input type="number" name="edad" id="edad">
+        </div>
+        <div class="itemform">
+            <label for="platform">Plataforma</label>
+            <select name="platform" id="platform">
+                <option value="">--Seleccione la plataforma--</option>
+                <option value="1">PlayStation</option>
+                <option value="2">Xbox</option>
+                <option value="3">Nintendo</option>
+                <option value="4">PC</option>
+                <option value="5">Mobile</option>
+            </select>
+        </div>
+        <div class="itemform">
+            <label for="game">Videojuego más jugado</label>
+            <input type="text" name="game" id="game">
+        </div>
+        <div class="itemform">
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+</body>
+</html>
