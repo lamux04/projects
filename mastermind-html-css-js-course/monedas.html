@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de monedas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/monedas.css">
+</head>
+<body>
+    <main>
+        <h1>Conversor de monedas</h1>
+        <form action="#">
+            <div class="itemform">
+                <input type="text" id="euros" class="dinero">
+                <input type="text" value="€" disabled class="moneda">
+            </div>
+            <div class="itemform">
+                <input type="text" id="dolar" class="dinero" disabled>
+                <input type="text" value="$" disabled class="moneda">
+            </div>
+            <div class="itemform">
+                <input type="text" id="libra" class="dinero" disabled>
+                <input type="text" value="£" disabled class="moneda">
+            </div>
+            <div class="itemform">
+                <input type="text" id="yen" class="dinero" disabled>
+                <input type="text" value="¥" disabled class="moneda">
+            </div>
+            <div class="itemform">
+                <input type="button" value="Convertir" id="boton">
+            </div>
+        </form>
+    </main>
+    
+    <script src="js/monedas.js"></script>
+</body>
+</html>
