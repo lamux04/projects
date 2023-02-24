@@ -19,10 +19,11 @@
 
     <!-- Formulario -->
     <main>
-        <form action="#">
+        <p id="error"></p>
+        <form action="#" id="formEntrada">
             <div class="itemform">
                 <label for="name">Nombre</label>
-                <input type="text" name="name" id="name">
+                <input type="text" name="name" id="name" required minlength="2">
             </div>
             <div class="itemform">
                 <label for="email">Email</label>
@@ -35,7 +36,7 @@
             <div class="itemform">
                 <label for="platform">Plataforma</label>
                 <select name="platform" id="platform">
-                    <option value="">--Seleccione la plataforma--</option>
+                    <option value="0">--Seleccione la plataforma--</option>
                     <option value="1">PlayStation</option>
                     <option value="2">Xbox</option>
                     <option value="3">Nintendo</option>
@@ -47,9 +48,9 @@
                 <label for="game">Videojuego más jugado</label>
                 <input type="text" name="game" id="game">
             </div>
-            <input type="submit" value="Enviar" class="button">
+            <input type="submit" value="Enviar" class="button" id="submit">
         </form>
     </main>
-    
+    <script src="js/gustos.js" defer></script>
 </body>
 </html>

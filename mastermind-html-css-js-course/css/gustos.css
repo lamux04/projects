@@ -110,3 +110,15 @@ form {
 }
 
 /* FIN Formulario */
+
+/* Mensaje de error */
+#error {
+    background-color: #ed3a3a;
+    color: #ffffff;
+    font-size: 18px;
+    margin: 15px 0;
+    border: solid 1px #001b3d;
+    border-radius: 5px;
+    padding: 5px 20px;
+    display: none;
+}

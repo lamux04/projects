@@ -19,7 +19,10 @@
     
     <!-- Formulario -->
     <main>
-        <form action="#">
+        <div>
+            <p id="error"></p>
+        </div>
+        <form action="juego.html" id="formEntrada">
             <div class="itemform">
                 <label for="nick">introduce tu nick</label>
                 <input type="text" name="nick" value="@" id="nicka" readonly>
@@ -32,14 +35,14 @@
             <div class="itemform">
                 <label for="tamano">tamaño del juego</label>
                 <select name="tamano" id="tamano">
-                    <option value="">--Por favor elige un tamaño--</option>
+                    <option value="0">--Por favor elige un tamaño--</option>
                     <option value="1">4x4</option>
                     <option value="2">5x5</option>
                     <option value="3">6x6</option>
                 </select>
             </div>
             <div class="itemform">
-                <input type="submit" value="JUGAR">
+                <input type="submit" value="JUGAR" id="jugar">
             </div>
         </form>
     </main>
@@ -50,5 +53,7 @@
         <p>Curso Frontend Mastermind HTML, CSS Y JS</p>
     </footer>
     <!-- FIN Pie de página -->
+    <script src="js/index.js" defer></script>
+    <!-- <script src="js/ejercicio1.js"></script> -->
 </body>
 </html>
