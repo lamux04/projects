@@ -1,0 +1,82 @@
+main {
+    padding: 20px 0;
+    width: 550px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    border: #00276e solid 3px;
+    border-radius: 20px;
+    margin: 100px auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    display: inline-block;
+    margin: 30px auto;
+    color: #00276e;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.itemform {
+    margin: 10px auto;
+    width: 400px;
+}
+
+.itemform:first-of-type {
+    padding-bottom: 10px;
+    border-bottom: #000 dashed 2px;
+}
+
+#euros {
+    background-color: #fff;
+}
+
+
+input,
+input:disabled {
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    background-color: #eee;
+    outline: none;
+    border: #00276e solid 2px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+form .dinero {
+    width: 250px;
+    margin-right: 0;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+form .moneda {
+    width: 30px;
+    text-align: center;
+    position: relative;
+    margin-left: 0;
+    left: -30px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+#euros:focus {
+    background-color: #ffffff;
+    transition: 0.5s;
+}
+
+input[type="button"]:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: #ccc;
+}
